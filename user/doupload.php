@@ -61,7 +61,6 @@ exit;
       //开始移动文件到相应的文件夹
       if(move_uploaded_file($file['tmp_name'],$upload_path.$file['name'])){
         if (updateAvatar($conn,$uid,$name)) {
-            echo $uid;
             echo "头像上传成功!<br> <a href='/user/center.php?uid=".$uid."'>返回</a>";
             exit;
         }
