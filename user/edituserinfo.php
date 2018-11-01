@@ -31,16 +31,16 @@ if ($result->num_rows <= 0) {
     <script type="text/javascript" src="../js/carousel.js"></script>
 </head>
 <style type="text/css">
-tr{
-    line-height: 50px;
-    font-size: 18px;
+    tr{
+        line-height: 50px;
+        font-size: 18px;
 
-}
-.t1{
-    width: auto;
-    text-align: right;
-    font-size: 18px;
-}
+    }
+    .t1{
+        width: auto;
+        text-align: right;
+        font-size: 18px;
+    }
 
 </style>
 <body>

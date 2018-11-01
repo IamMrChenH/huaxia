@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d41247e2-1c6f-456f-a0b4-3b5e55b66f23" name="默认的" comment="2018年10月31日16:31:44&#10;用户中心 修改信息 上传头像 我的订单&#10;完成界面修改" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
+=======
+    <list default="true" id="d41247e2-1c6f-456f-a0b4-3b5e55b66f23" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,33 +75,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="dialog.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/dialog.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="33">
               <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="center.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/center.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1881">
               <caret line="57" column="69" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="69" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="doupload.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/doupload.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2475">
               <caret line="75" selection-start-line="75" selection-end-line="75" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/login.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,12 +141,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
               <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -150,10 +188,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+=======
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/admin/doadduser.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/general.css" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/footer2.php" />
@@ -171,6 +212,9 @@
         <option value="$PROJECT_DIR$/user/center.php" />
         <option value="$PROJECT_DIR$/user/doupload.php" />
         <option value="$PROJECT_DIR$/conn.php" />
+=======
+        <option value="$PROJECT_DIR$/footer.php" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
       </list>
     </option>
   </component>
@@ -188,6 +232,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP5.4" />
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="127.0.0.1" port="9000" />
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="262" />
     <option name="y" value="393" />
@@ -195,6 +240,14 @@
     <option name="height" value="994" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="354" />
+    <option name="y" value="6" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -206,6 +259,7 @@
           <expand>
             <path>
               <item name="huaxia" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="huaxia" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -217,6 +271,9 @@
               <item name="huaxia" type="b2602c69:ProjectViewProjectNode" />
               <item name="huaxia" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="huaxia" type="462c0819:PsiDirectoryNode" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
             </path>
           </expand>
           <select />
@@ -225,6 +282,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Users/chenhao/PhpstormProjects/huaxia/css/center.css" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -238,6 +296,13 @@
       <recent name="D:\Users\chenhao\PhpstormProjects\huaxia\user" />
       <recent name="D:\Users\chenhao\PhpstormProjects\huaxia" />
     </key>
+=======
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,6 +334,7 @@
       <workItem from="1540543494649" duration="981000" />
       <workItem from="1540555957683" duration="20000" />
       <workItem from="1540559411559" duration="599000" />
+<<<<<<< HEAD
       <workItem from="1540793552704" duration="10084000" />
       <workItem from="1540859726674" duration="8730000" />
       <workItem from="1540946384246" duration="15737000" />
@@ -295,6 +361,13 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="49494000" />
+=======
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13099000" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,6 +379,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="67" y="-8" width="1861" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -329,6 +403,31 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1780303" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.09579832" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32996634" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +436,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2018年10月31日16:31:44&#10;用户中心 修改信息 上传头像 我的订单&#10;完成界面修改" />
     <option name="LAST_COMMIT_MESSAGE" value="2018年10月31日16:31:44&#10;用户中心 修改信息 上传头像 我的订单&#10;完成界面修改" />
@@ -437,6 +537,11 @@
           <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
         </state>
       </provider>
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/2.png">
+      <provider selected="true" editor-type-id="images" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -452,6 +557,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/user/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
     <entry file="file://$PROJECT_DIR$/admin/doadduser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -473,6 +588,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/articles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -531,11 +647,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="95" />
+=======
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="977">
+          <caret line="159" column="17" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="345">
           <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
         </state>
@@ -610,11 +733,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="103" column="37" lean-forward="true" selection-end-line="165" selection-end-column="33" />
+=======
+        <state relative-caret-position="230">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1173">
           <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
         </state>
@@ -687,6 +829,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+=======
+        <state relative-caret-position="425">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+>>>>>>> a402c55ebc53a03377c41aeb69c7fde6f3c57eb5
         </state>
       </provider>
     </entry>

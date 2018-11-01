@@ -1,3 +1,4 @@
+<?php error_reporting(E_ALL ^ E_NOTICE); //不提示错误?>
 <!-- 侧边开始 -->
 <script>
 <!-- 回到顶部开始 -->
@@ -22,8 +23,9 @@ $(document).ready(function(){//单击隐藏出现
   });
 });*/
 <!-- 公众号结束 -->
-
 </script>
+ 
+
 <style>
 .sidebar img:hover{background-color:#999;}
 .weixin{position: fixed;bottom: 260px;right: 0px;display:none;}
@@ -33,7 +35,12 @@ $(document).ready(function(){//单击隐藏出现
 </style>
 <div class="weixin"><img src="/images/weixin1.png" ></div>
 <div class="sidebar">
-<div class="shopcart" ><img src="/images/sidebar/shopcart.png" ></div>
+<div class="shopcart" >
+<a href="/user/cart.php?uid=<?php echo $_REQUEST['uid']?>">
+<img class="shopcartimg" src="/images/sidebar/shopcart.png" >
+</a>
+
+</div>
 <div class="OfficialAccount" ><img src="/images/sidebar/OfficialAccount.png" ></div>
 <div class="feedback" ><img src="/images/sidebar/feedback.png" ></div>
 <div class="backtotop"><img src="/images/sidebar/backtotop.png"></div>
