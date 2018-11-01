@@ -1,0 +1,9 @@
+0926
+增加狂欢啤酒节jq 显示隐藏
+1029
+goods增加购物车入口
+user/增加addcart.php(加到购物车)，cart.php（我的购物车），cleancart（清空购物车）
+huaxia数据库增加cart表
+1031
+css/增加semantic.min.css,themes
+js/增加semantic.min.js

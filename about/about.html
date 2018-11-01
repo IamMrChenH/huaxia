@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>关于我们</title>
+
+<link rel="stylesheet" href="dist/pageSwitch.min.css">
+<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	a{text-decoration:none; color: #000;}
+	img{margin: auto;
+	display:block;}
+	html,body{
+		height: 100%;
+	}
+	#container {
+			width: 100%;
+			height: 500px;
+			overflow: hidden;
+	}
+	.sections,.section {
+		height:100%;
+	}
+	#container,.sections {
+		position: relative;
+	}
+	.section {
+		background-color: #000;
+		background-size: cover;
+		background-position: 50% 50%;
+		text-align: center;
+		color: white;
+	}
+	#section0 {
+		background-image: url('images/about1.png');
+	}
+	#section1 {
+		background-image: url('images/about2.png');
+	}
+	#section2 {
+		background-image: url('images/about3.png');
+	}
+	#section3 {
+		background-image: url('images/about4.png');
+	}
+</style>
+
+</head>
+<body>
+	<!-- 头部logo -->
+	<header style="height:75px; width:100%;background-color:#000000 "><a href="/index.php"><img src="images/logo.png" alt=""></a></header>
+<div id="container">
+	<!-- 轮播图旁白 -->
+	 <div class="sections">
+		<div class="section" id="section0"><h3></h3></div>
+		<div class="section" id="section1"><h3></h3></div>
+		<div class="section" id="section2"><h3></h3></div>
+		<div class="section" id="section3"><h3></h3></div>
+	</div> 
+</div>
+<!-- 底部 -->
+<footer>
+		<div style=" line-height: 24px; width: 1100px; height: 24px; margin: 10px auto;">
+				Copyright © 2018&nbsp;福建华夏酒庄有限公司&nbsp;Corporation. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;闽ICP备15002330号&nbsp;&nbsp;&nbsp;&nbsp;[<span><a href="/sitemap.html" target="_self">网站地图</a></span>]&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网站建设:408研发团队</div>
+</footer>
+
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="dist/pageSwitch.min.js"></script>
+<script>
+	$("#container").PageSwitch({
+		direction:'horizontal',
+		easing:'ease-in',
+		duration:1000,
+		autoPlay:true,
+		loop:'false'
+	});
+</script>
+</body>
+</html>
