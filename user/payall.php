@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 include '../conn.php';
@@ -11,7 +12,6 @@ $result = $conn->query($sql);
 if ($result->num_rows <= 0) {
 
 echo '请先注册或登录！';
-echo '<a href="../index.php">返回首页</a>';
 exit;
   }
 
@@ -20,7 +20,7 @@ exit;
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>华夏酒庄</title>
+  <title>聚宝盆商城</title>
   <link rel="stylesheet" type="text/css" href="../css/general.css">
   <link rel="stylesheet" type="text/css" href="../css/index.css">
   <script type="text/javascript" src="../js/jquery.js"></script>
@@ -35,25 +35,31 @@ exit;
 <!-- 头部结束 -->
 <!-- 主体开始 -->
 <div class="container w1100">
-  <p style="font-size:30px">我的购物车</p>
+  <p style="font-size:30px">选择支付方式</p>
       <br>  <br>  <br>  <br>
       <p >
+<select class="" name="pay_method">
+
+
         <?php
-$sql = "SELECT * FROM cart where user_id = ".$uid;
+$sql = "SELECT * FROM pay ";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-while($row = $result->fetch_assoc()) {
 
-  echo "用户名：".getUserNameById($conn,$row['id'])."<br>商品名称:".getGoodsNameById($conn,$row['goods_id'])."<br>数量:".$row['count'];
- ?>
+while($row = $result->fetch_assoc()) {
+?>
+<option value="<?php echo $row['id']?>"><?php
+  echo $row['pay_method'];
+ ?></option>
+
 <hr>
  <?php
 }
 }
- ?> </p>
- <p style='font-size:30px'><a href="/user/buy.php?uid=<?php echo $uid?>">全部付款</a></p>
- <p style='font-size:30px'><a href="/user/cleancart.php?uid=<?php echo $uid?>">清空购物车</a></p>
+ ?> </select></p><br>
+ <p style='font-size:30px'><a href="/user/paysuccess.php?uid=<?php echo $uid?>">支付</a></p>
+
 
 </div>
 <!-- 页脚开始 -->

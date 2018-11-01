@@ -12,14 +12,13 @@
 include '../conn.php';
 //获取内容
 $username = $_REQUEST['username'];
-$password = $_REQUEST['password'];
-$tel      = $_REQUEST['tel'];
-$sex      = $_REQUEST['sex'];
-$email    = $_REQUEST['email'];
-$address  = $_REQUEST['address'];
+$tel 	  = $_REQUEST['tel'];
+$province = $_REQUEST['province'];
+$city     = $_REQUEST['city'];
+$district = $_REQUEST['district'];
 
 //写入数据库
-$sql = "insert into user(uname,pwd,tel,sex,email,address) values('".$username."','".$password."','".$tel."','".$sex."','".$email."','".$address."')";
+$sql = "insert into address(username,tel,province,city,district) values('".$username."','".$tel."','".$province."','".$city."','".$district."')";
 if ($conn->query($sql)==TRUE) {
   echo "success！";
     ?>

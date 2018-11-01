@@ -1,0 +1,130 @@
+/*
+    个人中心
+*/
+
+.menu {
+    width: 13%;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    float: left;
+    background: #f7f7f7;
+
+}
+
+.personData {
+    width: 85%;
+    float: right;
+}
+
+.userbar {
+    background: #f7f7f7;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.headerImager {
+    width: 110px;
+    padding: 10px;
+    float: left;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
+.radius20px {
+    border-radius: 20px;
+}
+
+.mar10 {
+    margin: 10px;
+}
+
+.ml50 {
+    margin-left: 50%;
+}
+
+.width50 {
+    width: 40%;
+}
+
+.clearA {
+    text-decoration: none;
+    color: #000;
+}
+
+.f15 {
+    font-size: 15px;
+}
+
+.bgf7f7f7 {
+    background: #f7f7f7;
+}
+
+.bgWhite {
+    background: white;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.item_table {
+    margin: 0px auto;
+
+}
+.item_table tr{
+    line-height: 60px;
+}
+.item_table input {
+    line-height: 20px;
+    font-size: 18px;
+    padding: 5px;
+
+}
+.mg_center{
+    margin: 0 auto;
+}
+
+.h80{
+    height: 65%;
+}
+
+/*更新按钮*/
+
+/*按钮 样式*/
+.form-submit {
+    display: block;
+    color: #f6f6f6;
+    padding: 7px 0;
+    background: #37A803;
+    border: 1px solid #37A803;
+    cursor: pointer;
+    width: 200px;
+    height: 48px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    line-height: 12px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.form-submit:hover {
+    text-decoration: none;
+    color: #ffffcc;
+    background: #179500;
+    border-color: #179500
+}
+
+
+
+

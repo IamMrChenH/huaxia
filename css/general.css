@@ -43,6 +43,9 @@ a:hover {color:#CC0000;text-decoration:underline;}
 .cny {font-family:Arial, Helvetica, sans-serif;font-style:normal}
 .f12 {font-size:12px;}
 .f14 {font-size:14px;}
+.f17 {font-size:17px;}
+.f20 {font-size:20px;}
+.f30 {font-size:30px;}
 /* 字体颜色 */
 .c333 {color:#333;}
 .c666 {color:#666;}
@@ -137,7 +140,7 @@ line-height:20px;}
 .nav .cateth i {width:10px;height:6px;margin-left:75px;background-position:0 -30px;vertical-align:middle}
 .nav .cateth i.up {background-position:-10px -30px;}
 .nav .cateth .catebar {position:absolute;z-index:9999;}
-.nav .cross {margin-left:20px;}
+.nav .cross {margin-left:220px;}
 .nav .cross ul li {float:left;line-height:35px;margin:0 0 0 55px;}
 .nav .cross ul li a {font-size:18px;font-weight:bold;line-height:46px;float:left;padding:0 20px;color:#fff;text-decoration:none;}
 .nav .cross ul li a:hover {text-decoration:none;color:#FFCC00;border-bottom:3px solid #37a803;	background:#179500;}
@@ -277,3 +280,9 @@ line-height:20px;}
 .popwaiting {display:none;position:fixed;left:50%;top:50%;width:360px;height:auto;padding:20px;border:6px solid #d2d2d2;background:#fff;-moz-box-shadow:2px 2px 2px #888;-webkit-box-shadow:2px 2px 2px #888;box-shadow:2px 2px 2px #888;z-index:10000;overflow:hidden}
 .popwaiting i {display:block;width:40px;height:40px;margin:0 auto;font-size:0;line-height:0;background:url(../images/sandclock.gif) no-repeat center;}
 .popwaiting p {display:table;margin:15px auto 0 auto;line-height:150%;color:#999;}
+
+.testBg{
+    background: #66ccff;
+}
+
+

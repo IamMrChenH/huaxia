@@ -1,8 +1,6 @@
 <?php
 session_start();
 include '../conn.php';
-include 'function.php';
-
 $uid=$_REQUEST['uid'];
 
 $sql = "SELECT * FROM user where id = '".$uid."'";
@@ -11,7 +9,6 @@ $result = $conn->query($sql);
 if ($result->num_rows <= 0) {
 
 echo '请先注册或登录！';
-echo '<a href="../index.php">返回首页</a>';
 exit;
   }
 
@@ -20,7 +17,7 @@ exit;
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>华夏酒庄</title>
+  <title>地址管理</title>
   <link rel="stylesheet" type="text/css" href="../css/general.css">
   <link rel="stylesheet" type="text/css" href="../css/index.css">
   <script type="text/javascript" src="../js/jquery.js"></script>
@@ -35,28 +32,47 @@ exit;
 <!-- 头部结束 -->
 <!-- 主体开始 -->
 <div class="container w1100">
-  <p style="font-size:30px">我的购物车</p>
       <br>  <br>  <br>  <br>
-      <p >
-        <?php
-$sql = "SELECT * FROM cart where user_id = ".$uid;
-$result = $conn->query($sql);
+      <p style="font-size:30px">
+<?php
 
-if ($result->num_rows > 0) {
 while($row = $result->fetch_assoc()) {
-
-  echo "用户名：".getUserNameById($conn,$row['id'])."<br>商品名称:".getGoodsNameById($conn,$row['goods_id'])."<br>数量:".$row['count'];
  ?>
-<hr>
- <?php
-}
-}
- ?> </p>
- <p style='font-size:30px'><a href="/user/buy.php?uid=<?php echo $uid?>">全部付款</a></p>
- <p style='font-size:30px'><a href="/user/cleancart.php?uid=<?php echo $uid?>">清空购物车</a></p>
+ <form class="" action="doaddaddress.php" method="post">
+<table>
+  <tr>
+    <td>联系人：</td>
+    <td><input type="text" name="username" value=""></td>
+  </tr>
+  <tr>
+    <td>手机号：</td>
+    <td><input type="text" name="tel" value=""></td>
+  </tr>
+  <tr>
+    <td>省：</td>
+    <td><input type="text" name="province" value=""></td>
+  </tr>
+  <tr>
+    <td>市：</td>
+	<td><input type="text" name="city" value=""></td>
+    </td>
+  </tr>
+  <tr>
+    <td>区：</td>
+    <td><input type="text" name="district" value=""></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="submit" name="" value="保存"></td>
+  </tr>
+</table>
+
+</form>
+<?php } ?>
+ </p>
 
 </div>
 <!-- 页脚开始 -->
 <div class="footer mt20">
-<script type="text/javascript" src="../js/juicer.js"></script>
+<script type="text/javascript" src="../images/juicer.js"></script>
 </body></html>
+
