@@ -70,6 +70,7 @@ if ($result->num_rows <= 0) {
 
                    <!-- <dd class="pad5"><a href="/user/upload.php?uid=<?php /*echo $uid */?>">上传头像</a></dd>-->
                     <dd class="pad5"><a href="/user/order.php?uid=<?php echo $uid ?>">我的订单</a></dd>
+                    <dd class="pad5"><a href="/user/adaddress.php?uid=<?php echo $uid ?>">地址管理</a></dd>
                 </dl>
             </div>
         </div>
@@ -84,7 +85,7 @@ if ($result->num_rows <= 0) {
                         <p class="f30 mt20"><?php echo "&nbsp&nbsp" . $row['uname'] ?></p>
                         <p class="f15 mt8">
                             <a class="clearA fl"><?php echo "&nbsp&nbsp&nbsp" . ($row['sex'] == 1 ? "男" : "女") ?></a>
-                            <a class="fr pad5">我的收货地址</a>
+                            <a class="fr pad5" href="/user/address.php?uid=<?php echo $uid ?>">我的收货地址</a>
                             <a class="fr pad5">我的优惠信息</a>
                             <a class="fr pad5">我的账户</a>
                         </p>
@@ -170,7 +171,9 @@ if ($result->num_rows <= 0) {
 
         </div>
         <!-- 页脚开始 -->
+
         <!-- 页脚  -->
+
         <div class="footer mt20">
             <script type="text/javascript" src="../images/juicer.js"></script>
 

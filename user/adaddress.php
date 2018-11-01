@@ -1,4 +1,10 @@
 <?php
+/**
+ *
+ * 地址管理
+ */
+
+
 session_start();
 include '../conn.php';
 include 'function.php';
