@@ -1,0 +1,63 @@
+/*
+    个人中心
+*/
+
+.menu {
+    width: 13%;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    float: left;
+    background: #f7f7f7;
+
+}
+
+.personData {
+    width: 85%;
+    float: right;
+}
+
+.userbar {
+    background: #f7f7f7;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.headerImager {
+    width: 110px;
+    padding: 10px;
+    float: left;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
+.radius20px {
+    border-radius: 20px;
+}
+
+.mar10{
+    margin: 10px;
+}
+.ml50 {margin-left:50%;}
+
+.width50{
+    width: 40%;
+}
+
+.clearA{
+    text-decoration: none;
+    color: #000;
+}
+
+.f15 {font-size:15px;}
+
+.bgf7f7f7{
+    background: #f7f7f7;
+}
