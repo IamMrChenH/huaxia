@@ -1,8 +1,8 @@
 ﻿<?php
 $servername = "localhost";
 $username = "root";
-$password = "chenhao";
-$dbname = "huaxia1021";
+$password = "root";
+$dbname = "huaxia";
 
 // 创建连接
 $conn = mysqli_connect($servername, $username, $password, $dbname);
