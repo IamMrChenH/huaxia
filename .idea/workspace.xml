@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d41247e2-1c6f-456f-a0b4-3b5e55b66f23" name="默认的" comment="2018年10月31日16:31:44&#10;用户中心 修改信息 上传头像 我的订单&#10;完成界面修改">
-      <change beforePath="$PROJECT_DIR$/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/conn.php" afterDir="false" />
-    </list>
+    <list default="true" id="d41247e2-1c6f-456f-a0b4-3b5e55b66f23" name="默认的" comment="2018年10月31日16:31:44&#10;用户中心 修改信息 上传头像 我的订单&#10;完成界面修改" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +109,7 @@
       <file leaf-file-name="conn.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="110">
               <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
@@ -276,7 +274,7 @@
       <workItem from="1540946384246" duration="15737000" />
       <workItem from="1541033277096" duration="57000" />
       <workItem from="1541040876846" duration="792000" />
-      <workItem from="1541051935116" duration="168000" />
+      <workItem from="1541051935116" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="2018年10月31日16:31:44&#10;用户中心 修改信息 上传头像 我的订单&#10;完成界面修改">
       <created>1540974892747</created>
@@ -296,7 +294,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48667000" />
+    <option name="totallyTimeSpent" value="49494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +685,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="110">
           <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
